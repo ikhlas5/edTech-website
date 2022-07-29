@@ -13,8 +13,12 @@
     background: black;
     opacity: 0.6;
   }
-@media only screen and (max-width:576px) {
+@media only screen  and (max-width:992px) {
         .recponciveimg{
             width: 100%;
+            padding-bottom: 20px;
+        }
+        .visibility{
+            display: none;
         }
 }
