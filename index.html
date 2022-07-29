@@ -201,65 +201,98 @@
           </div>
         </div>
       </section>
+      <section class="container bg-primary rounded-3 mt-5 mb-5">
+        <div class="row d-flex justify-content-center align-items-center">
+          <div class="col-8 px-4 py-5 ">
+            <h2 class="text-light fw-bold">Ready to join?</h2>
+            <p class="text-light fs-6-sm">It is a long established fact that a reader will be distracted by the
+              <br>
+              readable content of a page when looking at its layout.</p>
+          </div>
+          <div class="col-4">
+            <button type="button" class="btn btn-light btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal"><span class="text-primary fw-semibold">Register Now</span> </button>
+            <!-- Button trigger modal -->
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Reset</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       Are you sure! you have changes 
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save </button>
+      </div>
+    </div>
+  </div>
+</div>
+          </div>
+        </div>
+      </section>
+
       <!-- Accordion section start -->
       <section class="container">
-      <div class="text-center mt-5">
-        <h1 class="fs-3 fw-bold fs-5-sm fw-semibold-sm">Frequently Asked Questions</h1>
-        <p class="fs-5 fs-6-sm">It is a long established fact that a reader will be distracted by the readable
-          <br>
-          content of a page when looking at its layout.</p>
-      </div>
-      <div class="accordion col-md-10 m-5  " id="accordionPanelsStayOpenExample">
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-              What is the difference between Grid and Flex?
-            </button>
-          </h2>
-          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
-            <div class="accordion-body">
-             <strong> Grid is made for two-dimensional layout while Flexbox is for one. </strong> means Flexbox can work on either row or columns at a time, but Grids can work on both. Flexbox, gives you more flexibility while working on either element (row or column). HTML markup and CSS will be easy to manage in this type of scenario.
+        <div class="text-center mt-5">
+          <h1 class="fs-3 fw-bold fs-5-sm fw-semibold-sm">Frequently Asked Questions</h1>
+          <p class="fs-5 fs-6-sm">It is a long established fact that a reader will be distracted by the readable
+            <br>
+            content of a page when looking at its layout.</p>
+        </div>
+        <div class="accordion col-md-10 m-5  " id="accordionPanelsStayOpenExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                What is the difference between Grid and Flex?
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+              <div class="accordion-body">
+               <strong> Grid is made for two-dimensional layout while Flexbox is for one. </strong> means Flexbox can work on either row or columns at a time, but Grids can work on both. Flexbox, gives you more flexibility while working on either element (row or column). HTML markup and CSS will be easy to manage in this type of scenario.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                What is the difference between Bootstrap and Tailwind?
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+              <div class="accordion-body">
+                <strong>Bootstrap comes with a set of pre-styled responsive, mobile-first components that possess a definite UI kit. Tailwind CSS uses a set of utility classes to create a neat UI with more flexibility and uniqueness.</strong> Sites created using Bootstrap follow the generic pattern that makes them look identical.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                What is the css box model
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+              <div class="accordion-body">
+               <strong> In CSS, the term "box model" is used when talking about design and layout.</strong> The CSS box model is essentially a box that wraps around every HTML element.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                What is the smantic tag
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+              <div class="accordion-body">
+                <strong>The HTML semantics refers to the tags that provide meaning to an HTML page rather than just presentation.</strong> It makes HTML more comprehensible by better defining the different sections and layout of web pages.
+              </div>
             </div>
           </div>
         </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-              What is the difference between Bootstrap and Tailwind?
-            </button>
-          </h2>
-          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
-            <div class="accordion-body">
-              <strong>Bootstrap comes with a set of pre-styled responsive, mobile-first components that possess a definite UI kit. Tailwind CSS uses a set of utility classes to create a neat UI with more flexibility and uniqueness.</strong> Sites created using Bootstrap follow the generic pattern that makes them look identical.
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-              What is the css box model
-            </button>
-          </h2>
-          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
-            <div class="accordion-body">
-             <strong> In CSS, the term "box model" is used when talking about design and layout.</strong> The CSS box model is essentially a box that wraps around every HTML element.
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-              What is the smantic tag
-            </button>
-          </h2>
-          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
-            <div class="accordion-body">
-              <strong>The HTML semantics refers to the tags that provide meaning to an HTML page rather than just presentation.</strong> It makes HTML more comprehensible by better defining the different sections and layout of web pages.
-            </div>
-          </div>
-        </div>
-      </div>
-      </section>
+        </section>
       <!-- Accordion section end  -->
     </main>
     <!-- main end  -->
@@ -283,16 +316,16 @@
 
     <!-- footer start  -->
     <footer class="bg-dark h-50 mt-5">
-      <div class="text-center pt-5 pb-5">
+      <div class="text-center pt-5 pb-4">
         <h2 class="text-white fw-bold" >Pro Edu</h2>
         <p class="text-light">Office 41, Dhaka, Bangladesh, 
           <br>
-          Sultanate of Oman
+          @ Developed By Ikhlas
           <br>
           Privacy Ploicy | Terms of use
           </p>
       </div>
-      <div class="text-center text-white pb-5">
+      <div class="text-center text-white fs-3 pb-5">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook me-4" viewBox="0 0 16 16">
           <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
         </svg>
