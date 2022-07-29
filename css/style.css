@@ -1,0 +1,16 @@
+/* .linerbg{
+    background-color: linear-gradient(rgba(40, 46, 53, 0.952), rgba(87, 57, 66, 0.8));
+} */
+
+.drk:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: black;
+    opacity: 0.6;
+  }
+
